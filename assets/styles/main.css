@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+* {
+  outline: 2px solid red;
+}
+
+body {
+  background: url(../images/fondo_negro.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 2vw;
+}
+
+body .containerHome {
+  position: absolute;
+  border-radius: 8px;
+  background-color: black;
+  margin: 2%;
+  height: 90%;
+  width: 96%;
+  opacity: 1.7;
+}
+
+body .containerHome .container {
+  position: absolute;
+  margin: 0 5%;
+  max-width: 96%;
+  max-height: 99%;
+  height: 100%;
+}
+
+body .containerHome .container #myCarousel {
+  width: 100%;
+  height: 90% !important;
+  margin: 10% 0;
+}
+
+body h2 {
+  padding-top: 7%;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+}
+
+body #content {
+  position: absolute;
+  height: 100%;
+  background: black;
+}
+
+body #content .machine {
+  margin: auto;
+  display: table;
+}
+
+body #content .machine h1 {
+  position: relative;
+  float: left;
+  background: black;
+  color: #fff;
+  font-size: 2.5em;
+}
+
+body #content .machine h1 span {
+  position: absolute;
+  right: 0;
+  width: 0;
+  background: black;
+  border-left: 1px solid white;
+  animation: escribir 5s steps(35) infinite alternate;
+}
+
+body .button {
+  font-family: sans-serif;
+  margin: 6% auto;
+  width: 85%;
+  background: #89609E;
+  font-family: 'Lobster', cursive;
+  font-size: 3vw;
+  color: orange;
+}
+
+body .button .button:hover {
+  background-color: #d7bde6;
+}
+
+body .demo {
+  margin: 3%;
+}
+
+body .demo .skills {
+  width: 1200px;
+  height: 400px;
+}
+
+#myCarousel .nav a small {
+  display: block;
+}
+
+#myCarousel .nav {
+  background: #eee;
+}
+
+.nav-justified > li > a {
+  border-radius: 0px;
+}
+
+.nav-pills > li[data-slide-to="0"].active a {
+  background-color: #16a085;
+}
+
+.nav-pills > li[data-slide-to="1"].active a {
+  background-color: #e67e22;
+}
+
+.nav-pills > li[data-slide-to="2"].active a {
+  background-color: #2980b9;
+}
+
+.nav-pills > li[data-slide-to="3"].active a {
+  background-color: #8e44ad;
+}
+
+@keyframes escribir {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
+}
+ 
+
+ /*# sourceMappingURL= main.css.map */
