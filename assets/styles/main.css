@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
-* {
-  outline: 1px solid rgba(255, 0, 0, 0.8);
-}
-
 .vcenter {
   vertical-align: middle;
   float: none;
@@ -12,7 +8,7 @@
   margin: 0 auto;
   width: 980px;
   position: relative;
-  background: #ece9d6 url(../img/noise.png);
+  background: #ece9d6 url(../images/noise.png);
   box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.22);
 }
 
@@ -29,7 +25,7 @@
 }
 
 .wraper .jumbotron {
-  background: #ece9d6 url(../img/noise.png);
+  background: #ece9d6 url(../images/noise.png);
 }
 
 .wraper .jumbotron #social-bar-holder {
@@ -109,15 +105,135 @@
   width: 100%;
   margin-top: 0px;
   position: relative;
-  background: url(../img/nav-top.png) repeat-x top left;
+  background: url(../images/nav.png) repeat-x top left;
   border-bottom: 1px solid #9d9b92;
 }
 
-.wraper .firstSection .initPage {
+.wraper .jumbotron nav .sf-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.wraper .jumbotron nav .sf-menu a {
+  position: relative;
+  display: block;
+}
+
+.wraper .jumbotron nav #nav {
+  clear: left;
+  display: block;
+  float: right;
+  position: relative;
+  right: 50%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+  .wraper .jumbotron nav #nav {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .wraper .jumbotron nav #nav {
+    display: none;
+  }
+}
+
+.wraper .jumbotron nav #nav li {
+  display: block;
+  float: left;
+  position: relative;
+  left: 50%;
+  font-family: mensch;
+  word-spacing: -0.1em;
+  font-size: 24px;
+  margin-right: 0px;
+  padding-left: 15px;
+  -moz-transition: none;
+  -webkit-transition: none;
+  -o-transition: color 0 ease-in;
+  transition: none;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.wraper .jumbotron nav #nav li span {
+  padding-right: 15px;
+}
+
+.wraper .jumbotron nav #nav li a {
+  display: block;
+  line-height: 37px;
+  height: 37px;
+  color: #444444;
+  text-shadow: 0px 1px 0 #ffffff;
+  -moz-transition: none;
+  -webkit-transition: none;
+  -o-transition: color 0 ease-in;
+  transition: none;
+}
+
+.wraper .jumbotron nav #nav li:hover {
+  background: url(../images/current-menu-item.png) no-repeat 0px -37px;
+}
+
+.wraper .jumbotron nav #nav li:hover span {
+  display: block;
+  background: url(../images/current-menu-item.png) no-repeat top right;
+}
+
+.wraper .jumbotron nav #nav li:hover a {
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 0px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+.wraper .jumbotron nav #nav li .current-menu-item {
+  background: url(../images/current-menu-item.png) no-repeat 0px -37px;
+}
+
+.wraper .jumbotron nav #nav li .current-menu-item span {
+  display: block;
+  background: url(../images/current-menu-item.png) no-repeat top right;
+}
+
+.wraper .jumbotron nav #nav li .current-menu-item a {
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 0px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+.wraper .jumbotron nav #nav .current_page_item {
+  background: url(../images/current-menu-item.png) no-repeat 0px -37px;
+}
+
+.wraper .jumbotron nav #nav .current_page_item span {
+  display: block;
+  background: url(../images/current-menu-item.png) no-repeat top right;
+}
+
+.wraper .jumbotron nav #nav .current_page_item a {
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 0px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+.firstSection .initPage {
   height: 100%;
 }
 
-.wraper .firstSection .initPage .btn {
+.firstSection .initPage .start {
+  height: 500px;
+}
+
+.firstSection .initPage .start p {
+  font-size: 2.3em;
+  margin: 16% 1%;
+}
+
+.firstSection .initPage .btn {
   flex: 1 1 auto;
   margin: 10px auto;
   padding: 20px 30px;
@@ -131,143 +247,26 @@
   border-radius: 10px;
 }
 
-.wraper .firstSection .initPage .btn:hover {
+.firstSection .initPage .btn:hover {
   background-position: right center;
   /* change the direction of the change here */
 }
 
-.wraper .firstSection .initPage .btn-1 {
+.firstSection .initPage .btn-1 {
   background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
 }
 
-.wraper .firstSection .initPage .btn-2 {
+.firstSection .initPage .btn-2 {
   background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
 }
 
-.wraper .firstSection .initPage .btn-3 {
+.firstSection .initPage .btn-3 {
   background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
 }
 
 body {
   text-decoration: none;
   background: #ece9d6 url(../images/fondo_rosa.png);
-}
-
-body .boardBlack {
-  position: relative;
-  background: black;
-  height: 100%;
-  margin: 1.5% 1.5%;
-  opacity: 1.7;
-}
-
-body .boardBlack .container {
-  position: absolute;
-  margin: 0 5%;
-  max-width: 96%;
-  max-height: 99%;
-  height: 100%;
-}
-
-body .boardBlack .container #myCarousel {
-  width: 100%;
-  height: 90% !important;
-  margin: 10% 0;
-}
-
-body h2 {
-  padding-top: 7%;
-  color: white;
-  font-weight: bolder;
-  text-align: center;
-}
-
-body #content {
-  background-color: black;
-  margin: 5%;
-  background: black;
-}
-
-body #content .machine {
-  margin: auto;
-  display: table;
-}
-
-body #content .machine h1 {
-  position: relative;
-  float: left;
-  background: black;
-  color: #fff;
-  font-size: 2.5em;
-}
-
-body #content .machine h1 span {
-  position: absolute;
-  right: 0;
-  width: 0;
-  background: black;
-  border-left: 1px solid white;
-  animation: escribir 5s steps(35) infinite alternate;
-}
-
-body .button {
-  font-family: sans-serif;
-  margin: 6% auto;
-  width: 85%;
-  background: #89609E;
-  font-family: 'Lobster', cursive;
-  font-size: 3.5vw;
-  color: orange;
-}
-
-body .button .button:hover {
-  background-color: #d7bde6;
-}
-
-body .demo {
-  margin: 3%;
-}
-
-body .demo .skills {
-  width: 1200px;
-  height: 400px;
-}
-
-#myCarousel .nav a small {
-  display: block;
-}
-
-#myCarousel .nav {
-  background: #eee;
-}
-
-.nav-justified > li > a {
-  border-radius: 0px;
-}
-
-.nav-pills > li[data-slide-to="0"].active a {
-  background-color: #16a085;
-}
-
-.nav-pills > li[data-slide-to="1"].active a {
-  background-color: #e67e22;
-}
-
-.nav-pills > li[data-slide-to="2"].active a {
-  background-color: #2980b9;
-}
-
-.nav-pills > li[data-slide-to="3"].active a {
-  background-color: #8e44ad;
-}
-
-@keyframes escribir {
-  from {
-    width: 100%;
-  }
-  to {
-    width: 0;
-  }
 }
  
 
