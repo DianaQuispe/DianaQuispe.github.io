@@ -1,28 +1,167 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
 * {
-  outline: 2px solid red;
+  outline: 1px solid rgba(255, 0, 0, 0.8);
+}
+
+.vcenter {
+  vertical-align: middle;
+  float: none;
+}
+
+.wraper {
+  margin: 0 auto;
+  width: 980px;
+  position: relative;
+  background: #ece9d6 url(../img/noise.png);
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.22);
+}
+
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+  .wraper {
+    width: 436px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .wraper {
+    width: 252px;
+  }
+}
+
+.wraper .jumbotron {
+  background: #ece9d6 url(../img/noise.png);
+}
+
+.wraper .jumbotron #social-bar-holder {
+  float: left;
+  width: 100%;
+  position: relative;
+  background: url(../images/transparent-dark.png);
+  border-bottom: 1px solid #f4f3ea;
+  padding-top: 14px;
+  padding-bottom: 9px;
+}
+
+.wraper .jumbotron #social-bar-holder #social-bar {
+  display: block;
+  clear: left;
+  float: right;
+  position: relative;
+  right: 50%;
+  text-align: center;
+}
+
+.wraper .jumbotron #social-bar-holder #social-bar .dribbble a {
+  background-image: url(../images/social/dribbble.png);
+}
+
+.wraper .jumbotron #social-bar-holder #social-bar .facebook a {
+  background-image: url(../images/social/facebook.png);
+}
+
+.wraper .jumbotron #social-bar-holder #social-bar .forrst a {
+  background-image: url(../images/social/forrst.png);
+}
+
+.wraper .jumbotron #social-bar-holder #social-bar .googleplus a {
+  background-image: url(../images/social/googleplus.png);
+}
+
+.wraper .jumbotron #social-bar-holder #social-bar .twitter a {
+  background-image: url(../images/social/twitter.png);
+}
+
+.wraper .jumbotron #social-bar-holder #social-bar li {
+  display: block;
+  float: left;
+  left: 50%;
+  position: relative;
+  overflow: hidden;
+  width: 32px;
+  height: 32px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  -moz-border-radius: 40px 40px 40px 40px;
+  -webkit-border-radius: 40px 40px 40px 40px;
+  border-radius: 40px 40px 40px 40px;
+}
+
+.wraper .jumbotron #social-bar-holder #social-bar li a {
+  position: absolute;
+  height: 64px;
+  width: 32px;
+  top: 0;
+  left: 0px;
+  background-repeat: no-repeat;
+  -webkit-transition: all 0.15s ease;
+  -moz-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+}
+
+.wraper .jumbotron nav {
+  padding-top: 28px;
+  padding-bottom: 20px;
+  margin-top: 110px;
+  margin-bottom: 25px;
+  float: left;
+  width: 100%;
+  margin-top: 0px;
+  position: relative;
+  background: url(../img/nav-top.png) repeat-x top left;
+  border-bottom: 1px solid #9d9b92;
+}
+
+.wraper .firstSection .initPage {
+  height: 100%;
+}
+
+.wraper .firstSection .initPage .btn {
+  flex: 1 1 auto;
+  margin: 10px auto;
+  padding: 20px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}
+
+.wraper .firstSection .initPage .btn:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+}
+
+.wraper .firstSection .initPage .btn-1 {
+  background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+}
+
+.wraper .firstSection .initPage .btn-2 {
+  background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+}
+
+.wraper .firstSection .initPage .btn-3 {
+  background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
 }
 
 body {
-  background: url(../images/fondo_negro.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  font-family: 'Roboto Mono', monospace;
-  font-size: 2vw;
+  text-decoration: none;
+  background: #ece9d6 url(../images/fondo_rosa.png);
 }
 
-body .containerHome {
-  position: absolute;
-  border-radius: 8px;
-  background-color: black;
-  margin: 2%;
-  height: 90%;
-  width: 96%;
+body .boardBlack {
+  position: relative;
+  background: black;
+  height: 100%;
+  margin: 1.5% 1.5%;
   opacity: 1.7;
 }
 
-body .containerHome .container {
+body .boardBlack .container {
   position: absolute;
   margin: 0 5%;
   max-width: 96%;
@@ -30,7 +169,7 @@ body .containerHome .container {
   height: 100%;
 }
 
-body .containerHome .container #myCarousel {
+body .boardBlack .container #myCarousel {
   width: 100%;
   height: 90% !important;
   margin: 10% 0;
@@ -44,8 +183,8 @@ body h2 {
 }
 
 body #content {
-  position: absolute;
-  height: 100%;
+  background-color: black;
+  margin: 5%;
   background: black;
 }
 
@@ -77,7 +216,7 @@ body .button {
   width: 85%;
   background: #89609E;
   font-family: 'Lobster', cursive;
-  font-size: 3vw;
+  font-size: 3.5vw;
   color: orange;
 }
 
