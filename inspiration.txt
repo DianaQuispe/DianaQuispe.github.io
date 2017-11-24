@@ -276,3 +276,67 @@ anterior:
     </section>
 
 </body>
+//$Recycle.Bin    <ul class="collapsible popout desplegable" data-collapsible="accordion">
+                                        <li class="">
+                                            <div class="collapsible-header">
+                                                <a>
+                                                    <i class="fa fa-users" aria-hidden="true"></i>
+                                                </a>Trabajo en equipo</div>
+                                            <div class="collapsible-body" style="display: none;">
+                                                <p>En laboratoria pude reforzar el trabajo en equipo utilizando metodologías
+                                                    ágiles.</p>
+                                            </div>
+                                        </li>
+                                        <li class="">
+                                            <div class="collapsible-header">
+                                                <a>
+                                                    <i class="fa fa-assistive-listening-systems" aria-hidden="true"></i>
+                                                </a>Escucha activa</div>
+                                            <div class="collapsible-body" style="display: none;">
+                                                <p>Mi experiencia en atención al cliente me ha ayudado a entender las necesidades
+                                                    del usuario, brindándole opciones creativas para su elección.</p>
+                                            </div>
+                                        </li>
+                                        <li class="">
+                                            <div class="collapsible-header">
+                                                <a>
+                                                    <i class="fa fa-handshake-o" aria-hidden="true"></i>
+                                                </a>Compromiso</div>
+                                            <div class="collapsible-body" style="display: none;">
+                                                <p>En el ámbito laboral siempre he demostrado compromiso para el logro de los
+                                                    objetivos de la empresa.</p>
+                                            </div>
+                                        </li>
+                                        <li class="">
+                                            <div class="collapsible-header">
+                                                <a>
+                                                    <i class="fa fa-flag-checkered" aria-hidden="true"></i>
+                                                </a>Orientada a resultados</div>
+                                            <div class="collapsible-body" style="display: none;">
+                                                <p>En mi experiencia de asesora de ventas y atención al cliente cumplí de manera
+                                                    exitosa los objetivos mensuales de la empresa, logrando bonos mensuales
+                                                    por sobre-cumplimiento.</p>
+                                            </div>
+                                        </li>
+                                        <li class="">
+                                            <div class="collapsible-header">
+                                                <a>
+                                                    <i class="fa fa-smile-o" aria-hidden="true"></i>
+                                                </a>Tolerancia al estrés</div>
+                                            <div class="collapsible-body" style="display: none;">
+                                                <p>He resuelto problemas complejos bajo presión, generando un alto grado de
+                                                    satisfacción en el cliente y notas del 100% por soluciones efectivas.</p>
+                                            </div>
+                                        </li>
+                                        <li class="">
+                                            <div class="collapsible-header">
+                                                <a>
+                                                    <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                                </a>Adaptabilidad</div>
+                                            <div class="collapsible-body" style="display: none;">
+                                                <p>Me he adaptado rápidamente a las nuevas circunstancias, cambios de escenarios
+                                                    y horarios para lograr mis objetivos personales y de la empresa.</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    ///
