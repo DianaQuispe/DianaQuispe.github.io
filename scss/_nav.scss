@@ -1,0 +1,139 @@
+#sideNav {
+  .navbar-brand {
+  }
+  .navbar-nav .nav-item .nav-link {
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+}
+#about {
+  background-image: url(../img/profile_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  // background-position: 11% 62%;
+  // opacity: 0.8;
+  p {
+    color: black;
+    font-weight: 2em;
+  }
+}
+
+.hovereffect {
+  &:hover .overlay {
+    opacity: 1;
+  }
+
+  a.info {
+    font-size: 20px;
+    color: white;
+    font-family: "Inconsolata", sans-serif;
+    border-radius: 8px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    margin: 50px 0 0 0;
+    background-color: transparent;
+    //  -webkit-transform: translateY(-200px);
+    //  -ms-transform: translateY(-200px);
+    //  transform: translateY(-200px);
+    //  -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 25px;
+    padding-top: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    font-family: "LubalinGraphStdBook", sans-serif;
+  }
+  .overlay {
+
+    width: 77%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 11.5%;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all 0.2s 0.4s ease-in-out;
+    transition: all 0.2s 0.4s ease-in-out;
+  }
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  img {
+    display: block;
+    position: relative;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  }
+}
+
+.appdescktop {
+  width: 77%;
+  margin-left: 11.5%;
+}
+.profileMe {
+  background-image: url(../img/Diana/2.jpg);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin: 2%;
+}
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    width: $sidebar-base-width;
+    height: 100vh;
+    .navbar-brand {
+      display: flex;
+
+      margin: auto auto 0;
+      padding: 0.5rem;
+      .img-profile {
+        max-width: 10rem;
+        max-height: 10rem;
+        border: 0.5rem solid fade-out($white, 0.8);
+      }
+    }
+    .navbar-collapse {
+      display: flex;
+      align-items: flex-start;
+      flex-grow: 0;
+
+      width: 100%;
+      margin-bottom: auto;
+      .navbar-nav {
+        flex-direction: column;
+
+        width: 100%;
+        .nav-item {
+          display: block;
+          .nav-link {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
