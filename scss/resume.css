@@ -48,6 +48,11 @@ h2 {
   font-weight: 600;
   text-transform: uppercase; }
 
+#diana {
+  margin: 3%;
+  background: #9c7c83;
+  color: white; }
+
 #about {
   background-image: url(../img/profile_bg.jpg);
   background-repeat: no-repeat;
@@ -89,6 +94,7 @@ h2 {
     background: rgba(0, 0, 0, 0.6);
     font-family: "LubalinGraphStdBook", sans-serif; }
   .hovereffect .overlay {
+    border: 5px solid #e8b563;
     width: 77%;
     height: 100%;
     position: absolute;
@@ -107,17 +113,22 @@ h2 {
     transition: all 0.2s ease-in; }
 
 .appdescktop {
+  border: 2px solid #e8b563;
+  height: 430px;
   width: 77%;
   margin-left: 11.5%; }
 
 .profileMe {
-  background-image: url(../img/Diana/2.jpg);
+  border: none;
+  background-image: url(../img/Diana/4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-  width: 150px;
-  height: 150px;
+  width: 450px;
+  height: 250px;
   margin: 2%; }
+  .profileMe:hover {
+    box-shadow: 0 0 35px 20px rgba(79, 69, 66, 0.2); }
 
 @media (min-width: 992px) {
   #sideNav {
@@ -170,7 +181,7 @@ section.resume-section {
   background-color: #9c7c83 !important; }
 
 .text-primary {
-  color: #9c7c83 !important; }
+  color: #e49bd8 !important; }
 
 a {
   color: #9c7c83; }

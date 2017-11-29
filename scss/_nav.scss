@@ -6,6 +6,21 @@
     text-transform: uppercase;
   }
 }
+// #interests {
+//   img {
+//     width: 150px;
+//     height: 150px;
+//   }
+// }
+     #diana {
+  
+    margin: 3%;
+    background: $primary;
+    // padding: 5%;
+    color: white;
+  }
+
+
 #about {
   background-image: url(../img/profile_bg.jpg);
   background-repeat: no-repeat;
@@ -52,6 +67,7 @@
     font-family: "LubalinGraphStdBook", sans-serif;
   }
   .overlay {
+      border: 5px solid #e8b563;
 
     width: 77%;
     height: 100%;
@@ -81,18 +97,30 @@
 }
 
 .appdescktop {
+  border: 2px solid #e8b563;
+
+  height: 430px;
   width: 77%;
   margin-left: 11.5%;
 }
 .profileMe {
-  background-image: url(../img/Diana/2.jpg);  
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    margin: 2%;
+  border: none;
+  background-image: url(../img/Diana/4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 450px;
+  height: 250px;
+  margin: 2%;
+  &:hover {
+    box-shadow: 0 0 35px 20px rgba(79, 69, 66, 0.2);
+  }
 }
+// .box {
+
+// padding: 8% 20px;
+
+// }
 @media (min-width: 992px) {
   #sideNav {
     text-align: center;
