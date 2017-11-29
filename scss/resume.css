@@ -49,9 +49,11 @@ h2 {
   text-transform: uppercase; }
 
 #diana {
+  color: white;
   margin: 3%;
   background: #9c7c83;
-  color: white; }
+  padding: 0% 2%;
+  border-radius: 10px; }
 
 #about {
   background-image: url(../img/profile_bg.jpg);
@@ -107,6 +109,7 @@ h2 {
     -webkit-transition: all 0.2s 0.4s ease-in-out;
     transition: all 0.2s 0.4s ease-in-out; }
   .hovereffect img {
+    height: 250px;
     display: block;
     position: relative;
     -webkit-transition: all 0.2s ease-in;
@@ -181,7 +184,7 @@ section.resume-section {
   background-color: #9c7c83 !important; }
 
 .text-primary {
-  color: #e49bd8 !important; }
+  color: #bb5aab !important; }
 
 a {
   color: #9c7c83; }

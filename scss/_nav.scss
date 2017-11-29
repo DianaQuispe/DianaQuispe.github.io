@@ -12,14 +12,13 @@
 //     height: 150px;
 //   }
 // }
-     #diana {
-  
-    margin: 3%;
-    background: $primary;
-    // padding: 5%;
-    color: white;
-  }
-
+#diana {
+  color: white;
+  margin: 3%;
+  background: #9c7c83;
+  padding: 0% 2%;
+  border-radius: 10px;
+}
 
 #about {
   background-image: url(../img/profile_bg.jpg);
@@ -89,6 +88,7 @@
   text-align: center;
   cursor: default;
   img {
+    height: 250px;
     display: block;
     position: relative;
     -webkit-transition: all 0.2s ease-in;
