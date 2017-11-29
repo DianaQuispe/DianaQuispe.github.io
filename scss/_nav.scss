@@ -19,7 +19,22 @@
   padding: 0% 2%;
   border-radius: 10px;
 }
+.tittles {
+    text-decoration: underline;
+    text-decoration-color : rgb(216, 181, 211);
+}
+.naranja_lab {
+  color: $naranja_lab;
+}
+/* Gradient transparent - color - transparent */
 
+// .hr_style {
+//   margin-top: 0px;
+//   border: 0;
+//   color: $primary;
+//   height: 1px;
+//   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+// }
 #about {
   background-image: url(../img/profile_bg.jpg);
   background-repeat: no-repeat;
@@ -66,7 +81,7 @@
     font-family: "LubalinGraphStdBook", sans-serif;
   }
   .overlay {
-      border: 5px solid #e8b563;
+    border: 8px solid $naranja_lab;
 
     width: 77%;
     height: 100%;
@@ -97,7 +112,7 @@
 }
 
 .appdescktop {
-  border: 2px solid #e8b563;
+  border: 2px solid $naranja_lab;
 
   height: 430px;
   width: 77%;
@@ -108,7 +123,7 @@
   background-image: url(../img/Diana/4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
+  // position: absolute;
   width: 450px;
   height: 250px;
   margin: 2%;

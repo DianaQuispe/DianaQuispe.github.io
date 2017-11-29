@@ -55,6 +55,14 @@ h2 {
   padding: 0% 2%;
   border-radius: 10px; }
 
+.tittles {
+  text-decoration: underline;
+  text-decoration-color: #d8b5d3; }
+
+.naranja_lab {
+  color: #f9a91a; }
+
+/* Gradient transparent - color - transparent */
 #about {
   background-image: url(../img/profile_bg.jpg);
   background-repeat: no-repeat;
@@ -96,7 +104,7 @@ h2 {
     background: rgba(0, 0, 0, 0.6);
     font-family: "LubalinGraphStdBook", sans-serif; }
   .hovereffect .overlay {
-    border: 5px solid #e8b563;
+    border: 8px solid #f9a91a;
     width: 77%;
     height: 100%;
     position: absolute;
@@ -116,7 +124,7 @@ h2 {
     transition: all 0.2s ease-in; }
 
 .appdescktop {
-  border: 2px solid #e8b563;
+  border: 2px solid #f9a91a;
   height: 430px;
   width: 77%;
   margin-left: 11.5%; }
@@ -126,7 +134,6 @@ h2 {
   background-image: url(../img/Diana/4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
   width: 450px;
   height: 250px;
   margin: 2%; }
