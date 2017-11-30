@@ -73,6 +73,15 @@ h2 {
   font-weight: d; }
 
 /* Gradient transparent - color - transparent */
+.mySkills {
+  padding-top: 4%;
+  margin: 0% 0;
+  position: relative;
+  bottom: 0; }
+
+#skills {
+  padding: 0px  auto !important; }
+
 #about {
   background: url("../img/Diana/13.jpg");
   background-repeat: no-repeat;
