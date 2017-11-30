@@ -35,14 +35,14 @@ h2 {
 .list-social-icons a {
   color: #495057; }
   .list-social-icons a:hover {
-    color: #9c7c83; }
+    color: #B2355C; }
   .list-social-icons a .fa-lg {
     font-size: 1.75rem; }
 
 .list-icons {
   font-size: 3rem; }
   .list-icons .list-inline-item i:hover {
-    color: #9c7c83; }
+    color: #B2355C; }
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
@@ -64,7 +64,7 @@ h2 {
 
 .tittles {
   text-decoration: underline;
-  text-decoration-color: #9c7c83; }
+  text-decoration-color: #B2355C; }
 
 .diana_logo {
   font-family: 'Quicksand', sans-serif;
@@ -147,7 +147,7 @@ h2 {
   background-size: contain;
   width: 200px;
   height: 245px;
-  margin: 2% 5%; }
+  margin: 0% auto; }
   .profileMe:hover {
     box-shadow: 0 0 35px 20px rgba(79, 69, 66, 0.2); }
 
@@ -199,17 +199,17 @@ section.resume-section {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important; } }
 .bg-primary {
-  background-color: #9c7c83 !important; }
+  background-color: #B2355C !important; }
 
 .text-primary {
-  color: #9c7c83 !important; }
+  color: #B2355C !important; }
 
 .list-group-item {
   border: 0px solid rgba(0, 0, 0, 0.125) !important; }
 
 a {
-  color: #9c7c83; }
+  color: #B2355C; }
   a:hover, a:focus, a:active {
-    color: #74585e; }
+    color: #77233e; }
 
 /*# sourceMappingURL=resume.css.map */

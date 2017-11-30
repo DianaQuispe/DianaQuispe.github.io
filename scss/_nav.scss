@@ -132,14 +132,13 @@ font-family: 'Quicksand', sans-serif;
   margin-left: 11.5%;
 }
 .profileMe {
-  border: none;
-  background-image: url(../img/Diana/4.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  // position: absolute;
-  width: 200px;
-  height: 245px;
-  margin: 2% 5%;
+    border: none;
+    background-image: url(../img/Diana/4.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 245px;
+    margin: 0% auto;
   &:hover {
     box-shadow: 0 0 35px 20px rgba(79, 69, 66, 0.2);
   }
