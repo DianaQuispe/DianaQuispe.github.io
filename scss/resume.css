@@ -58,7 +58,7 @@ h2 {
   text-decoration: none;
   margin: 30px  0 !important;
   color: white;
-  background: #9c7c83;
+  background: #B2355C;
   padding: 2% 2%;
   border-radius: 5px; }
 
@@ -73,7 +73,7 @@ h2 {
 
 /* Gradient transparent - color - transparent */
 #about {
-  background-image: url(../img/Diana/13.jpg);
+  background-image: url("../img/Diana/13.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
   #about p {
