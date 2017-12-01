@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
 
 #sideNav {
- 
   .navbar-nav .nav-item .nav-link {
     font-weight: 600;
     text-transform: uppercase;
@@ -9,29 +8,29 @@
 }
 
 .p_contactme {
-  margin-bottom: 30px !important; 
+  margin-bottom: 30px !important;
 }
 
 .list-social-icons {
   text-align: center;
 }
 #diana {
- text-decoration:none;   
-  
-  margin: 30px  0 !important;
+  text-decoration: none;
+
+  margin: 30px 0 !important;
   color: white;
-    background: $primary;
-    padding: 2% 2%;
-    border-radius: 5px;
+  background: $primary;
+  padding: 2% 2%;
+  border-radius: 5px;
 }
 .tittles {
-    text-decoration: underline;
-    text-decoration-color : $primary;
+  text-decoration: underline;
+  text-decoration-color: $primary;
 }
 .diana_logo {
-font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 4em;
-  font-weight: d; 
+  font-weight: d;
   // margin: 4%;
 }
 /* Gradient transparent - color - transparent */
@@ -50,27 +49,29 @@ font-family: 'Quicksand', sans-serif;
   bottom: 0;
 }
 #skills {
-  padding: 0px  auto !important;
+  padding: 0px auto !important;
 }
 #about {
+  content: "";
   background: url("../img/Diana/13.jpg");
   background-repeat: no-repeat;
-  
   background-size: cover;
-  // background-position: 11% 62%;
-  // opacity: 0.8;
+  // opacity: 0.5;
+  // filter: alpha(opacity=50);
+  /* For IE8 and earlier */
   p {
     color: black;
     font-weight: 2em;
   }
 }
-.resume-content  {
+.resume-content {
   margin: 15% 0%;
 }
 
 
+
 .hovereffect {
-   width: 200px;
+  width: 200px;
   height: 100%;
   float: left;
   overflow: hidden;
@@ -100,8 +101,7 @@ font-family: 'Quicksand', sans-serif;
     transition: all 0.2s ease-in-out;
   }
   h2 {
-     font-family: 'Varela Round',
-     sans-serif !important;
+    font-family: "Varela Round", sans-serif !important;
     text-transform: uppercase;
     color: #fff;
     text-align: center;
@@ -112,8 +112,6 @@ font-family: 'Quicksand', sans-serif;
     font-family: "LubalinGraphStdBook", sans-serif;
   }
   .overlay {
-
-   
     width: 77%;
     height: 95%;
     position: absolute;
@@ -139,19 +137,18 @@ font-family: 'Quicksand', sans-serif;
 }
 
 .appdescktop {
-
   height: 430px;
   width: 77%;
   margin-left: 11.5%;
 }
 .profileMe {
-    border: none;
-    background-image: url(../img/Diana/4.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 200px;
-    height: 245px;
-    margin: 0% auto;
+  border: none;
+  background-image: url(../img/Diana/4.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 245px;
+  margin: 0% auto;
   &:hover {
     box-shadow: 0 0 35px 20px rgba(79, 69, 66, 0.2);
   }
