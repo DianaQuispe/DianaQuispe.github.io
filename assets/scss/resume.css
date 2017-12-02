@@ -96,7 +96,6 @@ h2 {
   margin: 15% 0%; }
 
 .hovereffect {
-  width: 200px;
   height: 100%;
   float: left;
   overflow: hidden;
@@ -115,7 +114,7 @@ h2 {
     padding: 7px 14px;
     text-transform: uppercase;
     border: 1px solid #fff;
-    margin: 50px 0 0 0;
+    margin: 35px 0 0 0;
     background-color: transparent;
     transition: all 0.2s ease-in-out; }
   .hovereffect h2 {
@@ -129,19 +128,19 @@ h2 {
     background: rgba(0, 0, 0, 0.6);
     font-family: "LubalinGraphStdBook", sans-serif; }
   .hovereffect .overlay {
-    width: 77%;
-    height: 95%;
+    width: 78%;
+    height: 90%;
     position: absolute;
     overflow: hidden;
     top: 0;
-    /* left: 5%; */
+    left: 13% !important;
     background-color: rgba(0, 0, 0, 0.6);
     opacity: 0;
     filter: alpha(opacity=0);
     -webkit-transition: all 0.2s 0.4s ease-in-out;
     transition: all 0.2s 0.4s ease-in-out; }
   .hovereffect img {
-    width: 200px;
+    margin: 0% 1% 8% 13%;
     height: 250px;
     display: block;
     position: relative;
