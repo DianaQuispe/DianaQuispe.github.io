@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,9 +18,9 @@
     <link href="assets/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="assets/scss/resume.css" rel="stylesheet">
-///https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_tabulators_close
     <title>Diana Quispe Ccallo</title>
 </head>
+
 <body id="page-top">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
@@ -55,15 +56,15 @@
     </nav>
     <div class="container-fluid p-0">
         <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-                <div class="my-auto">
-                    <h1 class="mb-0">Diana
-                        <span class="text-primary">Quispe</span>
-                    </h1>
-                    <div class="subheading mb-5">Desarrolladora Web Front-End Junior
-                        <br/>
-                        <a class="text-primary" href="mailto:name@email.com">dianaQuispeCcallo@gmail.com</a>
-                    </div>
+            <div class="my-auto">
+                <h1 class="mb-0">Diana
+                    <span class="text-primary">Quispe</span>
+                </h1>
+                <div class="subheading mb-5">Desarrolladora Web Front-End Junior
+                    <br/>
+                    <a class="text-primary" href="mailto:name@email.com">dianaQuispeCcallo@gmail.com</a>
                 </div>
+            </div>
         </section>
         <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
             <div class="my-auto">
@@ -196,120 +197,197 @@
                         </ul>
                     </div>
                 </div>
-                </div>
+            </div>
         </section>
         <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
             <div class="my-auto">
                 <h2 class="mb-5 tittles">PORTAFOLIO</h2>
                 <div class="row">
+                    <div>
+                        <button onclick="openCity('London')">London</button>
+                        <button onclick="openCity('Paris')">Paris</button>
+                        <button onclick="openCity('Tokyo')">Tokyo</button>
+                    </div>
+                    <div id="London" class=" city">
+                        <span onclick="this.parentElement.style.display='none'" class="w3-button w3-large w3-display-topright">&times;</span>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="hovereffect ">
+                                    <img class="appdescktop" alt="appdescktop" src="assets/img/portfolio/proyecto1.PNG">
+                                    <div class="overlay">
+                                        <h2>Foro
+                                            <br>
+                                            <span style="font-size:small;">(Desarrollo individual )</span>
+                                        </h2>
+                                        <a class="info" target="_blank" href="https://dianaquispe.github.io/ForoRedux/">Ver Demo</a>
+                                        <a class="info" target="_blank" href="https://github.com/DianaQuispe/ForoRedux">Ver Código</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="hovereffect ">
+                                    <img class="appdescktop" alt="appdescktop" src="assets/img/portfolio/proyecto2.PNG">
+                                    <div class="overlay">
+                                        <h2>REGISTRATION
+                                            <br>
+                                            <span style="font-size:small;">(Desarrollo individual)</span>
+                                        </h2>
+                                        <a class="info" target="_blank" href="https://dianaquispe.github.io/REGISTRATIONwhitMVC/">Ver Demo</a>
+                                        <a class="info" target="_blank" href="https://github.com/DianaQuispe/REGISTRATIONwhitMVC">Ver Código</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="hovereffect ">
+                                    <img class="appdescktop" alt="appdescktop" src="assets/img/portfolio/proyecto3.PNG">
+                                    <div class="overlay">
+                                        <h2>Student Records
+                                            <br>
+                                            <span style="font-size:small;">(Desarrollo individual)</span>
+                                        </h2>
+                                        <a class="info" target="_blank" href="https://dianaquispe.github.io/student-records/">Ver Demo</a>
+                                        <a class="info" target="_blank" href="https://github.com/DianaQuispe/student-records">Ver Código</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="hovereffect ">
+                                    <img class="appdescktop" alt="appdescktop" src="assets/img/portfolio/proyecto4.PNG">
+                                    <div class="overlay">
+                                        <h2>TRELLO
+                                            <br>
+                                            <span style="font-size:small;">(Desarrollo Individual)</span>
+                                        </h2>
+                                        <a class="info" target="_blank" href="https://dianaquispe.github.io/trello-firebase/#/myboard">Ver Demo</a>
+                                        <a class="info" target="_blank" href="https://dianaquispe.github.io/trello-firebase/#/myboard">Ver Código</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="hovereffect ">
+                                    <img class="appdescktop" alt="appdescktop" src="assets/img/portfolio/proyecto1.PNG">
+                                    <div class="overlay">
+                                        <h2>Foro
+                                            <br>
+                                            <span style="font-size:small;">(Desarrollo individual )</span>
+                                        </h2>
+                                        <a class="info" target="_blank" href="https://dianaquispe.github.io/ForoRedux/">Ver Demo</a>
+                                        <a class="info" target="_blank" href="https://github.com/DianaQuispe/ForoRedux">Ver Código</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="hovereffect ">
+                                    <img class="appdescktop" alt="appdescktop" src="assets/img/portfolio/proyecto2.PNG">
+                                    <div class="overlay">
+                                        <h2>REGISTRATION
+                                            <br>
+                                            <span style="font-size:small;">(Desarrollo individual)</span>
+                                        </h2>
+                                        <a class="info" target="_blank" href="https://dianaquispe.github.io/REGISTRATIONwhitMVC/">Ver Demo</a>
+                                        <a class="info" target="_blank" href="https://github.com/DianaQuispe/REGISTRATIONwhitMVC">Ver Código</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="hovereffect ">
+                                    <img class="appdescktop" alt="appdescktop" src="assets/img/portfolio/proyecto3.PNG">
+                                    <div class="overlay">
+                                        <h2>Student Records
+                                            <br>
+                                            <span style="font-size:small;">(Desarrollo individual)</span>
+                                        </h2>
+                                        <a class="info" target="_blank" href="https://dianaquispe.github.io/student-records/">Ver Demo</a>
+                                        <a class="info" target="_blank" href="https://github.com/DianaQuispe/student-records">Ver Código</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="hovereffect ">
+                                    <img class="appdescktop" alt="appdescktop" src="assets/img/portfolio/proyecto4.PNG">
+                                    <div class="overlay">
+                                        <h2>TRELLO
+                                            <br>
+                                            <span style="font-size:small;">(Desarrollo Individual)</span>
+                                        </h2>
+                                        <a class="info" target="_blank" href="https://dianaquispe.github.io/trello-firebase/#/myboard">Ver Demo</a>
+                                        <a class="info" target="_blank" href="https://dianaquispe.github.io/trello-firebase/#/myboard">Ver Código</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="Paris" class=" city" style="display:none">
+                        <span onclick="this.parentElement.style.display='none'" class="w3-button w3-large w3-display-topright">&times;</span>
+                        <h2>Paris</h2>
+                        <p>Paris is the capital of France.</p>
+                    </div>
+
+                    <div id="Tokyo" class="city" style="display:none">
+                        <span onclick="this.parentElement.style.display='none'" class="w3-button w3-large w3-display-topright">&times;</span>
+                        <h2>Tokyo</h2>
+                        <p>Tokyo is the capital of Japan.</p>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="hovereffect ">
-                        <img class="appdescktop" alt="appdescktop" src="assets/img/portfolio/proyecto1.PNG">
-                        <div class="overlay">
-                            <h2>Foro
-                                <br>
-                                <span style="font-size:small;">(Desarrollo individual )</span>
-                            </h2>
-                            <a class="info" target="_blank" href="https://dianaquispe.github.io/ForoRedux/">Ver Demo</a>
-                            <a class="info" target="_blank" href="https://github.com/DianaQuispe/ForoRedux">Ver Código</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="hovereffect ">
-                        <img class="appdescktop" alt="appdescktop" src="assets/img/portfolio/proyecto2.PNG">
-                        <div class="overlay">
-                            <h2>REGISTRATION
-                                <br>
-                                <span style="font-size:small;">(Desarrollo individual)</span>
-                            </h2>
-                            <a class="info" target="_blank" href="https://dianaquispe.github.io/REGISTRATIONwhitMVC/">Ver Demo</a>
-                            <a class="info" target="_blank" href="https://github.com/DianaQuispe/REGISTRATIONwhitMVC">Ver Código</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="hovereffect ">
-                        <img class="appdescktop" alt="appdescktop" src="assets/img/portfolio/proyecto3.PNG">
-                        <div class="overlay">
-                            <h2>Student Records
-                                <br>
-                                <span style="font-size:small;">(Desarrollo individual)</span>
-                            </h2>
-                            <a class="info" target="_blank" href="https://dianaquispe.github.io/student-records/">Ver Demo</a>
-                            <a class="info" target="_blank" href="https://github.com/DianaQuispe/student-records">Ver Código</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="hovereffect ">
-                        <img class="appdescktop" alt="appdescktop" src="assets/img/portfolio/proyecto4.PNG">
-                        <div class="overlay">
-                            <h2>TRELLO
-                                <br>
-                                <span style="font-size:small;">(Desarrollo Individual)</span>
-                            </h2>
-                            <a class="info" target="_blank" href="https://dianaquispe.github.io/trello-firebase/#/myboard">Ver Demo</a>
-                            <a class="info" target="_blank" href="https://dianaquispe.github.io/trello-firebase/#/myboard">Ver Código</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </section>
         <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
-          <div class="my-auto">
-            <h2 class="mb-5 tittles">CONTÁCTAME </h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <p>
-                        Espero haya sido grato conocerme, así como lo fue para mí realizar este trabajo para mostrarte quién soy. Si deseas mayor
-                        información o que trabajemos juntos, solo haz un "click".
-                    </p>
-                    <h3 class="mb-0 p_contactme">¡ Gracias !</h3>
+            <div class="my-auto">
+                <h2 class="mb-5 tittles">CONTÁCTAME </h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>
+                            Espero haya sido grato conocerme, así como lo fue para mí realizar este trabajo para mostrarte quién soy. Si deseas mayor
+                            información o que trabajemos juntos, solo haz un "click".
+                        </p>
+                        <h3 class="mb-0 p_contactme">¡ Gracias !</h3>
 
-                    <a download="DianaQuispeCc_CV " id="diana" target="_blank" href="../assets\img\curriculum_diana.pdf">
-                        Descargar CV
-                        <span class="fa-stack fa-lg">
-                            <i class="fa fa-file-pdf-o fa-stack-1x fa-inverse">
-                            </i>
-                        </span>
-                    </a>
+                        <a download="DianaQuispeCc_CV " id="diana" target="_blank" href="../assets\img\curriculum_diana.pdf">
+                            Descargar CV
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-file-pdf-o fa-stack-1x fa-inverse">
+                                </i>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="row list-social-icons mb-0">
+                            <li class="col-xs-4 list-group-item">
+                                <a target="_blank" href="https://www.facebook.com/diana.quispeccallo">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="col-xs-4 list-group-item">
+                                <a target="_blank" href="https://www.linkedin.com/in/diana-carolina-quispe-ccallo/">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class=" col-xs-4 list-group-item">
+                                <a target="_blank" href="https://github.com/DianaQuispe">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <ul class="row list-social-icons mb-0">
-                        <li class="col-xs-4 list-group-item">
-                            <a target="_blank" href="https://www.facebook.com/diana.quispeccallo">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li class="col-xs-4 list-group-item">
-                            <a target="_blank" href="https://www.linkedin.com/in/diana-carolina-quispe-ccallo/">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li class=" col-xs-4 list-group-item">
-                            <a target="_blank" href="https://github.com/DianaQuispe">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- <ul class="fa-ul mb-0">
+                <!-- <ul class="fa-ul mb-0">
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
             Google Analytics Certified Developer</li>
@@ -343,8 +421,8 @@
               <sup>rd</sup>
               Place - James Buchanan High School - Hackathon 2005</li>
         </ul> -->
-        </div>
-    </section>
+            </div>
+        </section>
     </div>
     <!-- Bootstrap core JavaScript -->
     <script src="assets/vendor/jquery/jquery.min.js"></script>
@@ -355,6 +433,16 @@
 
     <!-- Custom scripts for this template -->
     <script src="assets/js/resume.min.js"></script>
-
+    <script>
+        function openCity(cityName) {
+            var i;
+            var x = document.getElementsByClassName("city");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            document.getElementById(cityName).style.display = "block";
+        }
+    </script>
 </body>
+
 </html>
