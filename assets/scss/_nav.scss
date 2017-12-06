@@ -46,7 +46,7 @@
 //   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 // }
 .mySkills {
-  padding-top: 4%;
+  padding: 0;
   margin: 0% 0;
   position: relative;
   bottom: 0;
@@ -59,9 +59,13 @@
   background: url("../img/Diana/13.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  // opacity: 0.5;
-  // filter: alpha(opacity=50);
-  /* For IE8 and earlier */
+  @media screen and (max-width: 750px) {
+     background: url("../img/Diana/bg.png");
+     background-repeat: no-repeat;
+  background-size: cover;
+
+  }
+
   p {
     color: black;
     font-weight: 2em;
@@ -144,14 +148,17 @@
   width: 77%;
   margin-left: 11.5%;
 }
+*{
+  // outline: 2px solid red;
+}
 .profileMe {
   border: none;
-  background-image: url(../img/Diana/4.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
+  // background-image: url(../img/Diana/4.jpg);
+  // background-repeat: no-repeat;
+  // background-size: contain;
   width: 200px;
   height: 245px;
-  margin: 0% auto;
+  margin: 0% 20%;
   &:hover {
     box-shadow: 0 0 35px 20px rgba(79, 69, 66, 0.2);
   }

@@ -74,7 +74,7 @@ h2 {
 
 /* Gradient transparent - color - transparent */
 .mySkills {
-  padding-top: 4%;
+  padding: 0;
   margin: 0% 0;
   position: relative;
   bottom: 0; }
@@ -86,8 +86,12 @@ h2 {
   content: "";
   background: url("../img/Diana/13.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
-  /* For IE8 and earlier */ }
+  background-size: cover; }
+  @media screen and (max-width: 750px) {
+    #about {
+      background: url("../img/Diana/bg.png");
+      background-repeat: no-repeat;
+      background-size: cover; } }
   #about p {
     color: black;
     font-weight: 2em; }
@@ -154,12 +158,9 @@ h2 {
 
 .profileMe {
   border: none;
-  background-image: url(../img/Diana/4.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
   width: 200px;
   height: 245px;
-  margin: 0% auto; }
+  margin: 0% 20%; }
   .profileMe:hover {
     box-shadow: 0 0 35px 20px rgba(79, 69, 66, 0.2); }
 
@@ -196,8 +197,8 @@ h2 {
             display: block; } }
 section.resume-section {
   border-bottom: 1px solid #dee2e6;
-  padding-top: 5rem !important;
-  padding-bottom: 5rem !important; }
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important; }
   section.resume-section .resume-item .resume-date {
     min-width: none; }
 
