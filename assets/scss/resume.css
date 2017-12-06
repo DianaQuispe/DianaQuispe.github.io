@@ -41,7 +41,11 @@ h2 {
     font-size: 1.75rem; }
 
 .list-icons {
-  font-size: 3rem; }
+  padding: 0px !important;
+  font-size: 3.4rem; }
+  @media screen and (max-width: 550px) {
+    .list-icons {
+      font-size: 3.6rem; } }
   .list-icons .list-inline-item i:hover {
     color: #B2355C; }
 
@@ -197,8 +201,8 @@ h2 {
             display: block; } }
 section.resume-section {
   border-bottom: 1px solid #dee2e6;
-  padding-top: 1rem !important;
-  padding-bottom: 1rem !important; }
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important; }
   section.resume-section .resume-item .resume-date {
     min-width: none; }
 
@@ -209,8 +213,7 @@ section.resume-section {
       min-width: 18rem; } }
 @media (min-width: 992px) {
   section.resume-section {
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important; } }
+    padding: 0rem 2rem !important; } }
 .bg-primary {
   background-color: #B2355C !important; }
 

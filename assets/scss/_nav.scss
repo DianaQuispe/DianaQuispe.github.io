@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Varela+Round");
 
-  
-
-
 #sideNav {
   .navbar-nav .nav-item .nav-link {
     font-weight: 600;
@@ -60,10 +57,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   @media screen and (max-width: 750px) {
-     background: url("../img/Diana/bg.png");
-     background-repeat: no-repeat;
-  background-size: cover;
-
+    background: url("../img/Diana/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   p {
@@ -74,8 +70,6 @@
 .resume-content {
   margin: 15% 0%;
 }
-
-
 
 .hovereffect {
   // width: 200px;
@@ -119,7 +113,7 @@
     font-family: "LubalinGraphStdBook", sans-serif;
   }
   .overlay {
-        width: 78%;
+    width: 78%;
     height: 90%;
     position: absolute;
     overflow: hidden;
@@ -148,7 +142,7 @@
   width: 77%;
   margin-left: 11.5%;
 }
-*{
+* {
   // outline: 2px solid red;
 }
 .profileMe {

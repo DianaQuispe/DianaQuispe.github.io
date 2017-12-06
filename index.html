@@ -74,7 +74,7 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6">
                             <h3 class="subheading mb-3">¡Hola!</h3>
-                            <p>Mi nombre es Diana Quispe, y soy front-end developer Junior egresada de LABORATORIA en Arequipa-Perú.
+                            <p class="text-justify">Mi nombre es Diana Quispe, y soy front-end developer Junior egresada de LABORATORIA en Arequipa-Perú.
                                 <br/>Soy una persona dedicada, buena trabajando en equipo y apasionada por la tecnologia.</p>
                         </div>
                         <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6">
@@ -82,7 +82,7 @@
                         </div>
 
                     </div>
-                 
+
                 </div>
                 <!-- <div class="resume-item d-flex flex-column flex-md-row mb-5">
           <div class="resume-content mr-auto">
@@ -133,39 +133,39 @@
                         <div class="subheading mb-3">Lenguajes de programación &amp; Herramientas</div>
                         <ul class=" list-icons">
                             <li class="list-inline-item">
-                                <i class="devicons devicons-html5"></i>
+                                <i href="#" data-toggle="tooltip" data-placement="bottom" title="HTML5" class="devicons devicons-html5"></i>
                             </li>
                             <li class="list-inline-item">
-                                <i class="devicons devicons-css3"></i>
+                                <i href="#" data-toggle="tooltip" data-placement="bottom" title="CSS3" class="devicons devicons-css3"></i>
                             </li>
                             <li class="list-inline-item">
-                                <i class="devicons devicons-javascript"></i>
+                                <i href="#" data-toggle="tooltip" data-placement="bottom" title="JAVASCRIPT" class="devicons devicons-javascript"></i>
                             </li>
                             <li class="list-inline-item">
-                                <i class="devicons devicons-react"></i>
+                                <i href="#" data-toggle="tooltip" data-placement="bottom" title="REACT" class="devicons devicons-react"></i>
                             </li>
                         </ul>
                         <ul class=" list-icons">
                             <li class="list-inline-item">
-                                <i class="devicons devicons-jquery"></i>
+                                <i href="#" data-toggle="tooltip" data-placement="bottom" title="JQUERY" class="devicons devicons-jquery"></i>
                             </li>
                             <li class="list-inline-item">
-                                <i class="devicons devicons-sass"></i>
+                                <i href="#" data-toggle="tooltip" data-placement="bottom" title="SASS" class="devicons devicons-sass"></i>
                             </li>
                             <li class="list-inline-item">
-                                <i class="devicons devicons-bootstrap"></i>
+                                <i href="#" data-toggle="tooltip" data-placement="bottom" title="BOOTSTRAP" class="devicons devicons-bootstrap"></i>
                             </li>
                             <li class="list-inline-item">
-                                <i class="devicons devicons-npm"></i>
+                                <i href="#" data-toggle="tooltip" data-placement="bottom" title="NPM" class="devicons devicons-npm"></i>
                             </li>
 
                         </ul>
                         <ul class=" list-icons">
                             <li class="list-inline-item">
-                                <i class="devicons devicons-trello"></i>
+                                <i href="#" data-toggle="tooltip" data-placement="bottom" title="TRELLO" class="devicons devicons-trello"></i>
                             </li>
                             <li class="list-inline-item">
-                                <i class="devicons devicons-github_badge"></i>
+                                <i href="#" data-toggle="tooltip" data-placement="bottom" title="GITHUB" class="devicons devicons-github_badge"></i>
                             </li>
                         </ul>
                     </div>
@@ -186,6 +186,19 @@
                                 <i class="fa-li fa fa-check"></i>
                                 Agile Development &amp; Scrum</li>
                         </ul>
+                        <div>
+                            <br/>
+                            <div class="subheading mb-3">
+                                Idiomas</div>
+                            <ul class="fa-ul mb-0">
+                                <li>
+                                    <i class="fa-li fa fa-check"></i>
+                                    Español (Nativo)</li>
+                                <li>
+                                    <i class="fa-li fa fa-check"></i>
+                                    Ingles (Intermedio)</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -334,8 +347,8 @@
             <div class="my-auto">
                 <h2 class="mb-5 tittles">CONTÁCTAME </h2>
                 <div class="row">
-                    <div class="col-md-6">
-                        <p>
+                    <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6">
+                        <p class="text-justify">
                             Espero haya sido grato conocerme, así como lo fue para mí realizar este trabajo para mostrarte quién soy. Si deseas mayor
                             información o que trabajemos juntos, solo haz un "click".
                         </p>
@@ -349,7 +362,7 @@
                             </span>
                         </a>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6">
                         <ul class="row list-social-icons mb-0">
                             <li class="col-xs-4 list-group-item">
                                 <a target="_blank" href="https://www.facebook.com/diana.quispeccallo">
@@ -433,6 +446,9 @@
             }
             document.getElementById(cityName).style.display = "block";
         }
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
     </script>
 </body>
 
