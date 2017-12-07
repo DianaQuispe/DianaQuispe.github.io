@@ -53,6 +53,9 @@ h2 {
   font-weight: 600;
   text-transform: uppercase; }
 
+.list-social-icons {
+  padding: 0px !important; }
+
 .p_contactme {
   margin-bottom: 30px !important; }
 
@@ -82,6 +85,10 @@ h2 {
   margin: 0% 0;
   position: relative;
   bottom: 0; }
+
+.myIcons {
+  min-width: 118px;
+  max-width: 315px; }
 
 #skills {
   padding: 0px auto !important; }
@@ -161,10 +168,12 @@ h2 {
   margin-left: 11.5%; }
 
 .profileMe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   border: none;
   width: 200px;
-  height: 245px;
-  margin: 0% 20%; }
+  height: 245px; }
   .profileMe:hover {
     box-shadow: 0 0 35px 20px rgba(79, 69, 66, 0.2); }
 

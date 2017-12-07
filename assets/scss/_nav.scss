@@ -6,6 +6,10 @@
     text-transform: uppercase;
   }
 }
+.list-social-icons {
+  padding: 0px !important;
+}
+
 
 .p_contactme {
   margin-bottom: 30px !important;
@@ -47,6 +51,11 @@
   margin: 0% 0;
   position: relative;
   bottom: 0;
+}
+.myIcons {
+  min-width:118px;
+  max-width: 315px;
+  // min-height: 143px;
 }
 #skills {
   padding: 0px auto !important;
@@ -146,13 +155,19 @@
   // outline: 2px solid red;
 }
 .profileMe {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
   border: none;
   // background-image: url(../img/Diana/4.jpg);
   // background-repeat: no-repeat;
   // background-size: contain;
   width: 200px;
   height: 245px;
-  margin: 0% 20%;
+  // padding: 0 !important;
+  //   margin-left: 1.5em;
+  //       margin-right: 1.5em;
+
   &:hover {
     box-shadow: 0 0 35px 20px rgba(79, 69, 66, 0.2);
   }
